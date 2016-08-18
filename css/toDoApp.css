@@ -1,42 +1,66 @@
 body {
-   background: linear-gradient(to right, #297FB8, #EAECC5);
+   font-family: Roboto;
+   background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+   background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+   background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+   background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+   background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+   margin:  0;
+   padding: 0;
+	border: 0;
 }
 
 .app {
-   border: 1px solid black;
-   margin: 0 auto;
-   width: 250px;
+   /*border: 1px solid black;*/
+   margin: 43px auto;
+	padding: 0;
+   width: 180px;
 }
 
 .titles {
-   background: #297FB8;
+   /*padding-top: 10px;*/
+	font-size: 0.8em;
+	background: #297FB8;
    color: white;
-   font-weight: 600;
    text-align: left;
-   font-size: 1.5em;
-   height: 40px
+   height: 15px;
+	border: solid #2980b9 5px;
+	padding-left: 3px;
+	/*padding: 1px 1px 1px 1px;
+	margin: 1px 1px 1px 1px;*/
 }
 
 #plusSign {
-   margin-left: 100%;
+   float: right;
+   margin-right: 2px;
    /*text-align: right;*/
 }
 
 input {
-   width: 250px;
+   /*height: 23px;*/
+   width: 100%;
+   background: #F7F7F7;
+	/*border-left: 3px solid #F7F7F7;
+	border
+	border: 0;*/
+   /*border: 1px solid #F7F7F7;*/
+   /*padding-left: 3px;*/
+	border: 0;
+	color: #2980b9;
+	box-sizing: border-box;
+	padding: 6px 6px 6px 20px;
+	font-size: .5em
 }
 
-i {
-   /*width: 45px;*/
-   background: red;
-   color: white;
-   /*display: none;*/
-   padding: 0 4px;
-}
 
 span {
-   padding: 0 4px
+   padding: 2px 1px;
+	border: 3px solid red;
+	margin: 0;
+   background: red;
+   color: white;
 }
+
 li:nth-of-type(even) {
    background: #F7F7F7;
 }
@@ -45,9 +69,15 @@ ul {
    margin: 0;
    padding: 0;
 }
+
 li {
-   width: 250px;
+   width: 100%;
    background: white;
    list-style: none;
-
+	font-size: .5em;
+	color: gray;
+	border: 0;
+	padding:  5px 5px 5px 0px;
+	margin: 0;
+	box-sizing: border-box;
 }
