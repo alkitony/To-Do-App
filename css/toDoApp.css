@@ -1,3 +1,53 @@
-h1 {
-   border: 1px solid green
+body {
+   background: linear-gradient(to right, #297FB8, #EAECC5);
+}
+
+.app {
+   border: 1px solid black;
+   margin: 0 auto;
+   width: 250px;
+}
+
+.titles {
+   background: #297FB8;
+   color: white;
+   font-weight: 600;
+   text-align: left;
+   font-size: 1.5em;
+   height: 40px
+}
+
+#plusSign {
+   margin-left: 100%;
+   /*text-align: right;*/
+}
+
+input {
+   width: 250px;
+}
+
+i {
+   /*width: 45px;*/
+   background: red;
+   color: white;
+   /*display: none;*/
+   padding: 0 4px;
+}
+
+span {
+   padding: 0 4px
+}
+li:nth-of-type(even) {
+   background: #F7F7F7;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+li {
+   width: 250px;
+   background: white;
+   list-style: none;
+
 }
