@@ -45,13 +45,15 @@ input {
 	border: 0;*/
    /*border: 1px solid #F7F7F7;*/
    /*padding-left: 3px;*/
-	border: 0;
+	border: 2px solid #F7F7F7;
 	color: #2980b9;
 	box-sizing: border-box;
 	padding: 6px 6px 6px 20px;
 	font-size: .5em
 }
-
+input:focus {
+   border: solid 2px #2980b9;
+}
 
 span {
    padding: 2px 1px;
@@ -59,8 +61,12 @@ span {
 	margin: 0;
    background: red;
    color: white;
+   /*display: none;*/
 }
 
+li:hover{
+
+}
 li:nth-of-type(even) {
    background: #F7F7F7;
 }
@@ -80,4 +86,8 @@ li {
 	padding:  5px 5px 5px 0px;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+.crossout {
+   text-decoration: line-through;
 }
